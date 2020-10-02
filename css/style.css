@@ -28,8 +28,9 @@ img{
 
 .container{
 	position: absolute;
-	width:100%;
-    min-height: 100%;
+	width: expression(document.body.clientWIDTH<762? "760px" : document.bo);
+/*	width:100%;
+    min-height: 100%;*/
     top: 0;
     left: 0;
     overflow: auto;
@@ -171,9 +172,8 @@ img{
 @media screen and (max-width: 1024px){ 
 	.main_field{
 		min-height: auto;
-		top:130px;
+		top:25%;
 		flex-direction: column;}
 
-	.field-card{
-		margin-left:40px;}
+	
 } 
