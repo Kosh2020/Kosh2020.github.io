@@ -4,7 +4,7 @@ body{
 
 h1 {text-align: center;
 	margin-top: 5%;
-	padding-bottom: 5%;
+	/*padding-bottom: 5%;*/
 	font-family: 'Exo 2.0 Thin';
 	font-style: thin;
 	font-size: 36pt;
@@ -42,14 +42,13 @@ img{
 }
 
 .main_field{
-	min-height: calc(100vh - 100px);
+/*	min-height: calc(100vh - 100px)*/;
 	width: 100%;
 	display:flex;
 	flex-direction: row;
 	justify-content: space-evenly;
 	align-items: center;
 	position: absolute;
-	top:100px;
 	left:0px;
 	/*justify-content: space-around;
 	margin-left: calc(( 100% - 984px )/8);
@@ -79,13 +78,14 @@ img{
 
 .card-border{
     position: absolute;
-    float:left;
+   /* float:left;*/
     width: 328px;
     min-height: 480px;
     background-color: #2ea8e6;
     border-radius: 14px;
     clip-path: polygon(15% 0, 100% 0, 100% 100%, 0 100%, 0 10%);
 }
+
 
 .card
 {
