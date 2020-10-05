@@ -3,8 +3,8 @@ body{
 }
 
 h1 {text-align: center;
-	margin-top: 50px;
-	padding-bottom: 30px;
+	margin-top: 5%;
+	padding-bottom: 5%;
 	font-family: 'Exo 2.0 Thin';
 	font-style: thin;
 	font-size: 36pt;
@@ -30,7 +30,7 @@ img{
 	position: absolute;
 	width: expression(document.body.clientWIDTH<762? "760px" : document.bo);
 	width:100%;
-    min-height: 100%;
+    height: 100%;
     top: 0;
     left: 0;
     overflow: auto;
@@ -172,7 +172,7 @@ img{
 @media screen and (max-width: 1024px){ 
 	.main_field{
 		min-height: auto;
-		top:25%;
+		top:20%;
 		flex-direction: column;}
 
 	.container{
