@@ -29,8 +29,8 @@ img{
 .container{
 	position: absolute;
 	width: expression(document.body.clientWIDTH<762? "760px" : document.bo);
-/*	width:100%;
-    min-height: 100%;*/
+	width:100%;
+    min-height: 100%;
     top: 0;
     left: 0;
     overflow: auto;
