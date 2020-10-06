@@ -4,7 +4,7 @@ body{
 
 h1 {text-align: center;
 	margin-top: 5%;
-	padding-bottom: 2%;
+	margin-bottom: 5%;
 	font-family: 'Exo 2.0 Thin';
 	font-size: 36pt;
 	color: white;
@@ -29,14 +29,27 @@ img{
 	top: 0;
     left: 0;
 	width:100%;
-    height: 100%;
+    height: 100vh;
     overflow: auto;
+
+ 	display: flex;
+    align-items: center; 
+    justify-content: center;
+    flex-direction: column;
+       
 	background-image: -webkit-linear-gradient(top,  rgba(0,0,0,0.4) 0%,rgba(0,0,0,0) 30%,rgba(0,0,0,0.01) 70%,rgba(0,0,0,0.4) 100%),  url(../img/background.png);
 	background-image: linear-gradient(to bottom,  rgba(0,0,0,0.4) 0%,rgba(0,0,0,0) 30%,rgba(0,0,0,0.01) 70%,rgba(0,0,0,0.4) 100%),  url(../img/background.png); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 	background-image: -moz-linear-gradient(top,  rgba(0,0,0,0.4) 0%, rgba(0,0,0,0) 30%, rgba(0,0,0,0.01) 70%, rgba(0,0,0,0.4) 100%),  url(../img/background.png); /* FF3.6-15 */
 	background-image: -webkit-linear-gradient(top,  rgba(0,0,0,0.4) 0%,rgba(0,0,0,0) 30%,rgba(0,0,0,0.01) 70%,rgba(0,0,0,0.4) 100%),  url(../img/background.png);
 	background-size: 90px;
 }
+
+.center_block{
+	
+	max-width: 1280px;
+	width:100%;
+}
+
 
 .main_field{
 /*	min-height: calc(100vh - 100px)*/;
@@ -45,8 +58,6 @@ img{
 	flex-direction: row;
 	justify-content: space-evenly;
 	align-items: center;
-	position: absolute;
-	left:0px;
 	/*justify-content: space-around;
 	margin-left: calc(( 100% - 984px )/8);
     margin-right: calc(( 100% - 984px )/8);*/
@@ -61,6 +72,9 @@ img{
 	width: 328px;
 	min-height: 540px;
    	position: relative;
+  /* 	float:left;
+   	margin-right: 40px;
+   	margin-left: 40px;*/
 }
 
 .bottom_head{
@@ -171,7 +185,7 @@ img{
 		min-height: auto;
 		flex-direction: column;}
 
-/*	.container{
-		background-size: 9.9%;}*/
+	.container{
+		display: block;}
 		}
  
